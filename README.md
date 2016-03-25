@@ -7,8 +7,8 @@ Try it here: http://web-corpora.net/wsgi3/GDictionary/
 
 **Usage**: 
 
-``from gdictionary import rusgrab``
-``rusgrab.main("your input text")``
+|``from gdictionary import rusgrab``
+|``rusgrab.main("your input text")``
 
 **Output**
 
