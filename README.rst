@@ -5,6 +5,10 @@ It takes a text string as an input, and returns a list of unknown words with mar
 
 Try it here: http://web-corpora.net/wsgi3/GDictionary/
 
+**Installation**
+Way 1. If you do not want to change the code in any way, you can download the .whl file and then run ``pip install gdictionary-0.756a0-py3-none-any.whl`` from your command line.
+Way 2. If you want to see the code and maybe even change it, you can clone this repository and use the modules "as is", or you can run ``python setup.py install`` in the folder and be able to import it whenever you use Python.
+
 **Usage**: 
 
 |``from gdictionary import rusgrab``
@@ -18,19 +22,23 @@ Try it here: http://web-corpora.net/wsgi3/GDictionary/
 
 **Prerequisites** 
 
-* modules *pymorphy2* and *liac-arff* will need to be installed
-* *mystem 3.0* and the *Weka* jar file are required in the working directory for the module to work
+* modules *pymorphy2* and *liac-arff* need to be installed.
+* *mystem 3.0* and the *Weka* jar file are required in your working folder if you choose way 1 installation, and in the project folder if you choose way 2.
 
 ----------------
 
 Это модуль для предсказания грамматических характеристик незнакомых слов, в соответствии с "Грамматическим словарем русского языка" А.А. Зализняка. Он принимает на вход текстовую строку, находит в ней слова, отсутствующие в словаре Зализняка и пытается предсказать для них лемму и ее тип склонения или спряжения в соответствии с нотацией Грамматичекого словаря.
 
+**Установка**
+Способ 1. Если вы не заинтересованы в просмотре и изменении кода, можно просто скачать .whl файл и установить его с помощью команды ``pip install gdictionary-0.756a0-py3-none-any.whl`` в консоли.
+Способ 2. Если вас интересует код проекта, можно клонировать репозиторий себе на компьютер и либо пользоваться им из его папки, либо установить с помощью команды ``python setup.py install``. 
+
 **Подробности**
 
-В папке с исходным кодом обязательно должны лежать исполняемый файл *mystem* версии 3.0 и jar-архив программы *Weka* версии 3.7 и выше.
+Для работы модуля необходимы исполняемый файл *mystem* версии 3.0 и jar-архив программы *Weka* версии 3.7 и выше: в вашей рабочей папке, если модуль установлен способом 1, и в папке репозитория, если способом 2.
 Также требуется установка библиотек *pymorphy2* и *liac-arff*.
 Чтобы импортировать модуль: ``from gdictionary import rusgrab``.
-Чтобы запустить модуль: ``rusgrab.main("your input text")``
+Чтобы запустить модуль: ``rusgrab.main("your input text")``.
 
 **Вывод:**
 
