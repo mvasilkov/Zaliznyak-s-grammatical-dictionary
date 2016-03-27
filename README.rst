@@ -4,6 +4,13 @@ This is a module for predicting grammatical markers for unknown Russian words, a
 It takes a text string as an input, and returns a list of unknown words with markers predicted for them.
 
 Try it here: http://web-corpora.net/wsgi3/GDictionary/
+Project description in Russian: https://www.hse.ru/ma/ling/st-projects
+
+**Tips**
+* What we do: analyze unknown verbs and nouns.
+* What we do not: analyze other parts of speech.
+* Noun tags denote stem type and declension class. 
+* Verb tags denote only stem type.
 
 **Installation**
 Way 1. If you do not want to change the code in any way, you can download the .whl file and then run ``pip install gdictionary-0.756a0-py3-none-any.whl`` from your command line.
