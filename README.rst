@@ -17,6 +17,22 @@ Project description in Russian: https://www.hse.ru/ma/ling/st-projects
 
 * Verb tags denote only stem type.
 
+* Quality metrics were measured manually using top-1000 frequent "new" nouns/verbs.
+
+Nouns:
+
+Stem type and declension class: 99%
+
+Gender: 90%
+
+Both correct: 89%
+
+Verbs:
+
+Verb conjugation class 89%
+
+* Quality metrics are extremely sensitive to dataset. 
+
 **Installation**
 
 Way 1. If you do not want to change the code in any way, you can download the .whl file and run ``pip install gdictionary-0.756a0-py3-none-any.whl`` from your command line.
