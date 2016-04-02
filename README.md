@@ -13,12 +13,12 @@ Project description in Russian: https://www.hse.ru/ma/ling/st-projects
 * What we do not: analyze other parts of speech.
 * Noun tags denote stem type and declension class. 
 * Verb tags denote only stem type.
-* Quality metrics were measured manually using top-1000 frequent "new" nouns/verbs.
- + Nouns:
+* Quality metrics were measured manually using top-1000 frequent "new" nouns/verbs:
+	<br><b>Nouns:<b>
 	<br>Stem type and declension class: 99%
 	<br>Gender: 90%
 	<br>Both correct: 89%
- + Verbs:
+	<br><b>Verbs:<b>
 	<br>Verb conjugation class 89%
 * Quality metrics are extremely sensitive to dataset. 
 
