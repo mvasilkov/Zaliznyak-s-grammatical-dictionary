@@ -7,6 +7,9 @@ Try it here: http://web-corpora.net/wsgi3/GDictionary/
 
 Project description in Russian: https://www.hse.ru/ma/ling/st-projects
 
+The work is done as a research project at Higher School of Economics, Moscow, Faculty of Humanities, master's programme Computational Linguistics.
+
+
 ##Tips
 
 * What we do: analyze unknown verbs and nouns.
